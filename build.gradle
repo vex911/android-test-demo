@@ -4,8 +4,8 @@ buildscript {
   repositories {
     jcenter()
     maven {
-      url 'https://maven.google.com/'
-      name 'Google'
+      url 'https://maven.aliyun.com/repository/jcenter'
+      name 'jcenter'
     }
   }
   dependencies {
@@ -16,7 +16,7 @@ buildscript {
 allprojects {
   repositories {
     maven {
-      url "https://maven.google.com"
+      url "https://maven.aliyun.com/repository/google"
       name 'Google'
     }
     jcenter()
